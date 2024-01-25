@@ -19,7 +19,7 @@ data = data.apply(lambda x: pd.Categorical(x).codes if x.dtype == "object" else 
 data.columns = data.columns.astype(str)
  
 # 分割数据为特征和目标
-X = data.drop("object", axis=1)
+X = data.drop("object", axis = 1).drop(data.columns[0], axis=1)
 y = data["object"]
  
 # 划分训练集和测试集
