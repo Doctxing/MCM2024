@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<colour intensity &le; 3.46<br/>gini = 0.653<br/>samples = 142<br/>value = [37, 45, 60]<br/>class = shirley>, fillcolor="#ece0fb"] ;
+1 [label=<gini = 0.0<br/>samples = 49<br/>value = [0, 0, 49]<br/>class = shirley>, fillcolor="#8139e5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<flavonoids &le; 1.49<br/>gini = 0.594<br/>samples = 93<br/>value = [37, 45, 11]<br/>class = belmode>, fillcolor="#e3fbed"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label=<alcohol &le; 12.1<br/>gini = 0.051<br/>samples = 38<br/>value = [37, 0, 1]<br/>class = gin>, fillcolor="#e6843e"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 0, 1]<br/>class = shirley>, fillcolor="#8139e5"] ;
+3 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 37<br/>value = [37, 0, 0]<br/>class = gin>, fillcolor="#e58139"] ;
+3 -> 5 ;
+6 [label=<proline &le; 724.5<br/>gini = 0.298<br/>samples = 55<br/>value = [0, 45, 10]<br/>class = belmode>, fillcolor="#65eb9d"] ;
+2 -> 6 ;
+7 [label=<malic acid &le; 3.92<br/>gini = 0.165<br/>samples = 11<br/>value = [0, 1, 10]<br/>class = shirley>, fillcolor="#8e4de8"] ;
+6 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 10<br/>value = [0, 0, 10]<br/>class = shirley>, fillcolor="#8139e5"] ;
+7 -> 8 ;
+9 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1, 0]<br/>class = belmode>, fillcolor="#39e581"] ;
+7 -> 9 ;
+10 [label=<gini = 0.0<br/>samples = 44<br/>value = [0, 44, 0]<br/>class = belmode>, fillcolor="#39e581"] ;
+6 -> 10 ;
+}
