@@ -36,7 +36,7 @@ y_pred = model.predict(X_test)
  
 # 计算模型准确度
 accuracy = accuracy_score(y_test, y_pred)
-print(f"模型准确度: {accuracy}")
+print(f"Accuracy: {accuracy}")
  
 # 可视化决策树
 dot_data = export_graphviz(
