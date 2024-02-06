@@ -1,0 +1,37 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}Problem Background}{3}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{3}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3}Data Cleaning}{4}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.4}Our work}{4}{subsection.0.1.4}%
+\contentsline {section}{\numberline {2}Preparation of the Models}{5}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Assumptions}{5}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Notations}{5}{subsection.0.2.2}%
+\contentsline {section}{\numberline {3}Model 1:Momentum Quantification and ARIMA Integration}{6}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Construction of Momentum Evaluation Formula}{6}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Testing of the Momentum Evaluation Formula}{7}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3}Predicting Player Performance with ARIMA and $\delta M$}{8}{subsection.0.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Explanation of the ARIMA Model}{8}{subsubsection.0.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Fitting with the ARIMA Model}{8}{subsubsection.0.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}The forecast results using the ARIMA model}{10}{subsubsection.0.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}The impact of momentum on the match results}{11}{subsection.0.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Logistic Regression$^{[5]} $ Model Explanation}{11}{subsubsection.0.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Using the Logistic Regression model to analyze the impact of $\delta M$ }{11}{subsubsection.0.3.4.2}%
+\contentsline {section}{\numberline {4}Model 2:Analysis and Evaluation Model Based on Bayesian Spatiotemporal Model}{12}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Characterization of the fluctuation probability in tennis matches}{12}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Correlating factors affecting match fluctuations}{14}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3}Discussion on Model Fit Accuracy}{16}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {4.4}Recommendations Based on the Impact of Various Factors on Matches}{17}{subsection.0.4.4}%
+\contentsline {section}{\numberline {5}Model 3: Momentum Evaluation Based on Cross-Validation Model}{18}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Testing the Universality of the Model}{18}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Enhancing the Model by Incorporating Relevant Factors}{18}{subsection.0.5.2}%
+\contentsline {section}{\numberline {6}Promotion of the Model}{19}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Rational Analysis of Momentum Indicator M in Women's Matches}{19}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Analysis of the Rationality of Momentum Indicator M in Different Court Conditions}{21}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3}Rational Analysis of Momentum Indicator M in Table Tennis Matches}{21}{subsection.0.6.3}%
+\contentsline {section}{\numberline {7}Sensitivity Analysis}{22}{section.0.7}%
+\contentsline {section}{\numberline {8}Model Evaluation}{23}{section.0.8}%
+\contentsline {subsection}{\numberline {8.1}Advantage}{23}{subsection.0.8.1}%
+\contentsline {subsection}{\numberline {8.2}Disavantage}{23}{subsection.0.8.2}%
+\contentsline {section}{Memorandum}{24}{section.0.9}%
+\contentsline {section}{References}{25}{section.1.9}%
+\contentsfinish 
